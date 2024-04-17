@@ -1,0 +1,28 @@
+Package: RBET
+Type: Package
+Title: Reference-based Batch Effect Testing
+Version: 0.1.0
+Authors@R: c(
+    person('Xiaoyue', 'Hu', email = 'xiaoyuehu@zju.edu.cn', role = c('aut', 'cre')),
+    person('He', 'Li', role = 'ctb'),
+    person('Junbin', 'Qian', email = 'dr_qian@zju.edu.cn', role = 'ctb'),
+    person('Hangjin', 'Jiang', email = 'jianghj@zju.edu.cn', role = 'ctb'))
+Maintainer: Xiaoyue Hu <xiaoyuehu@zju.edu.cn>
+Description: This tool detects batch effect in single-cell data, by first selecting reference genes and then testing the batch effect based on a two-sample distribution test.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Rcpp,
+    RVAideMemoire,
+    uwot,
+    dplyr,
+    stats
+LinkingTo: Rcpp
+Depends: 
+    R (>= 2.10),
+    Seurat
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
