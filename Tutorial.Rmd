@@ -2,6 +2,10 @@
 
 RBET (Reference-based batch effect testing) is designed to test the differences between two or more batches in single-cell data. RBET is implemented in a two-step strategy, which are (1) reference genes selection, and (2) batch effect testing. Reference genes can be selected either from candidate housekeeping genes or directly from data, which correspond to literature-based RBET and data-based RBET. In the following, we will give toy examples to both methods.
 
+```{r load}
+library(RBET)
+```
+
 ## Literature-based RBET
 
 When candidate housekeeping genes and cell type information are provided, we recommend to use literature-based RBET for higher credibility. Here is a toy example of pancreas dataset with two batches and two cell types. Please note that reference genes selection should be implemented on raw data.
