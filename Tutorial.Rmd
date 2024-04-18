@@ -1,6 +1,6 @@
 # Tutorial for RBET
 
-RBET (Reference-based batch effect testing) is designed to test the differences between two or more batches in single-cell data. RBET is implemented in a two-step strategy, which are (1) reference genes selection, and (2) batch effect testing. Reference genes can be selected either from candidate housekeeping genes or directly from data, which correspond to literature-based RBET and data-based RBET. In the following, we will give toy examples to both methods.
+Reference-based Batch Effect Testing (RBET) is a statistical framework aimed to guide the selection of batch effect correction (BEC) methods. It consists of two parts: (1) selecting reference genes, and (2) testing batch effect on reference genes. Reference genes can be selected either from candidate housekeeping genes or directly from data, which correspond to literature-based RBET and data-based RBET. In the following, we will give toy examples to both methods.
 
 ```{r load}
 library(RBET)
