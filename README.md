@@ -20,3 +20,6 @@ Install directly from github (install the latest release):<br />
 ## Citation
 Xiaoyue Hu#, He Li#, Ming Chen, Junbin Qian*  and Hangjin Jiang*. RBET guides case-specific choice of integration methods
 for scRNA-seq datasets from different sources. (Submitted)
+
+## Contact
+If you have any questions, please feel free to contact *xiaoyuehu@zju.edu.cn*.
