@@ -42,7 +42,7 @@ RBET <- function(obj, rgene, batch, k=50){
   batchnum <- length(batchname)
   res <- c()
   for(i in 1:(batchnum-1)){
-    for(j in 2:batchnum){
+    for(j in (i+1):batchnum){
       batch1 <- batchname[i]
       batch2 <- batchname[j]
       x <- data[, 1:2][which(data[, 'batch'] == batch1),]
