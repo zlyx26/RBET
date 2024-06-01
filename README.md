@@ -15,10 +15,10 @@ Install directly from github (install the latest release):<br />
 `devtools::install_github("zlyx26/RBET")`
 
 ## Tutorial
-`Tutorial.Rmd` provides instructions on how to use RBET. The example dataset in the tutorial can be downloaded from <https://drive.google.com/drive/folders/18rdL-L8nHL3MsojmuSIUiiI2NDPldDD9?usp=sharing>.
+`Tutorial.Rmd` provides instructions on how to use RBET. The example dataset in the tutorial can be downloaded from [DATA](https://drive.google.com/drive/folders/18rdL-L8nHL3MsojmuSIUiiI2NDPldDD9?usp=sharing).
 
 ## Citation
-Xiaoyue Hu#, He Li#, Ming Chen, Junbin Qian*  and Hangjin Jiang*. RBET guides case-specific choice of batch correction methods for single-cell transcriptomic data with overcorrection awareness and large batch effect robustness. (Submitted) <https://biorxiv.org/cgi/content/short/2024.05.26.595911v1>
+Xiaoyue Hu#, He Li#, Ming Chen, Junbin Qian*  and Hangjin Jiang*. RBET guides case-specific choice of batch correction methods for single-cell transcriptomic data with overcorrection awareness and large batch effect robustness. (Submitted) [Link](https://biorxiv.org/cgi/content/short/2024.05.26.595911v1)
 
 ## Contact
 If you have any questions, please feel free to contact *xiaoyuehu@zju.edu.cn*.
