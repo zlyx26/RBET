@@ -4,7 +4,7 @@ Reference-based Batch Effect Testing (RBET) is a statistical framework aimed to 
 ## Requirements
 R version: >= 4.0 <br />
 R packages:<br />
-Seurat == 5.0.3 <br />
+Seurat >= 5.0.3 <br />
 uwot == 0.1.16 <br />
 RVAideMemoire == 0.9-83-7 <br />
 dplyr == 1.1.4 <br />

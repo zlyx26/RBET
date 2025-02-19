@@ -16,7 +16,7 @@
 #' @importFrom RVAideMemoire mood.medtest
 #' @importFrom stats na.omit sd wilcox.test
 
-rg_sel_data <- function(obj, batch, dim=20, resolution=0.2, p=0.05, k=30){
+rg_sel_data <- function(obj, batch, dim=20, resolution=0.2, p=0.02, k=50){
   obj$batch <- obj@meta.data[,batch]
   obj.list <- SplitObject(obj, split.by = "batch")
   batch_name <- unique(obj$batch)
