@@ -15,7 +15,7 @@ Install directly from github (install the latest release):<br />
 `devtools::install_github("zlyx26/RBET")`
 
 ## Tutorial
-`Tutorial.Rmd` provides instructions on how to use RBET. The example dataset in the tutorial can be downloaded from <https://drive.google.com/drive/folders/18rdL-L8nHL3MsojmuSIUiiI2NDPldDD9?usp=sharing>.
+`Tutorial.Rmd` provides instructions on how to use RBET. The example dataset in the tutorial can be downloaded from [data](https://drive.google.com/drive/folders/18rdL-L8nHL3MsojmuSIUiiI2NDPldDD9?usp=sharing).
 
 ## Citation
 Xiaoyue Hu#, He Li#, Ming Chen, Junbin Qian*  and Hangjin Jiang*. RBET guides case-specific choice of integration methods
