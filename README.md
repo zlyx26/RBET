@@ -18,8 +18,7 @@ Install directly from github (install the latest release):<br />
 `Tutorial.Rmd` provides instructions on how to use RBET. The example dataset in the tutorial can be downloaded from [data](https://drive.google.com/drive/folders/18rdL-L8nHL3MsojmuSIUiiI2NDPldDD9?usp=sharing).
 
 ## Citation
-Xiaoyue Hu#, He Li#, Ming Chen, Junbin Qian*  and Hangjin Jiang*. RBET guides case-specific choice of integration methods
-for scRNA-seq datasets from different sources. (Submitted)
+Hu, X., Li, H., Chen, M. et al. Reference-informed evaluation of batch correction for single-cell omics data with overcorrection awareness. Commun Biol 8, 521 (2025). https://doi.org/10.1038/s42003-025-07947-7
 
 ## Contact
 If you have any questions, please feel free to contact *xiaoyuehu@zju.edu.cn*.
